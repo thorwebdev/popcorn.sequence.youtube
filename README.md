@@ -4,7 +4,7 @@ popcorn.sequence.youtube
 Create youtube video sequences
 
 Usage:
-
+```javascript
 var sequence = Popcorn.sequence.youtube(
                 "container-id",
                 [
@@ -40,3 +40,4 @@ sequence.pause();
 //check if sequence is paused
 
 sequence.paused();
+```
