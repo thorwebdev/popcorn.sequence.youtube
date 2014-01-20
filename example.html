@@ -6,7 +6,7 @@
     <script>
 	var ys;
 	var audio_src = 'http://www.youtube.com/watch?v=hHUbLv4ThOo';
-	var sequence = [{src: 'http://www.youtube.com/watch?v=hHUbLv4ThOo', in:5,out:10}, {src: 'http://www.youtube.com/watch?v=hT_nvWreIhg', in:13,out:20},{src:'http://www.youtube.com/watch?v=EHkozMIXZ8w',in:8,out:18}];
+	var sequence = [{src: 'http://www.youtube.com/watch?v=hHUbLv4ThOo', in:5,out:10}, {src: 'http://www.youtube.com/watch?v=hT_nvWreIhg&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0', in:13,out:20},{src:'http://www.youtube.com/watch?v=EHkozMIXZ8w',in:8,out:18}];
 	
 	document.addEventListener("DOMContentLoaded", function () {
 		ys = Popcorn.sequence.youtube('videos', sequence, audio_src);
