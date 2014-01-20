@@ -35,7 +35,7 @@
         parent.appendChild(video);
         return Popcorn.youtube(
             pop_id,
-            src+'&wmode=opaque&controls=0&disablekb=1&controls=0&modestbranding=1&rel=0&showinfo=0');
+            src);
     }
     function loadNextVideo(i, parent){
             //console.log(parent);
